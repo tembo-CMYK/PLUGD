@@ -1,0 +1,194 @@
+==================================================
+PAGE: EVENTS.HTML
+==================================================
+Title: My Framer Site
+
+--- HEADINGS ---
+H1: Zambia’s Biggest Events, All in One Place
+H3: Ubuntu Festival
+H3: Coca Cola Festival
+H3: Ubuntu Festival
+H3: Spring Vibes Festival
+H3: Lusaka Nights Concert
+H3: DJ Takeover Party
+H3: Ubuntu Festival
+H3: Zed Sports Fest
+H3: Lusaka Nights Concert
+H3: Taste of Zambia
+H3: Art &amp; Soul Expo
+H3: Art &amp; Soul Expo
+H3: Zed Sports Fest
+H3: Zed Sports Fest
+H3: Afrobeat Nation
+H3: DJ Takeover Party
+H3: Zambia New Year Countdown
+H3: Taste of Zambia
+H3: Theatre Under the Stars
+
+--- UNIQUE TEXT NODES ---
+My Framer Site
+Events
+Create Event
+Artists
+Zambia’s Biggest Events, All in One Place
+DEC
+09
+Ubuntu Festival
+Coca Cola Festival
+This is a feature description spanning a couple of lines.
+FEB
+27
+A celebration of unity through music, dance, and culture. Join top African acts live on stage.
+NOV
+12
+Spring Vibes Festival
+Celebrate the change of season with live bands, fashion shows, and outdoor fun.
+MARCH
+05
+Lusaka Nights Concert
+Experience electrifying performances under the stars — from hip hop to amapiano vibes
+JUN
+02
+DJ Takeover Party
+Dance all night as Zambia’s hottest DJs bring amapiano, afrobeats, and house to the main stage.
+APR
+Zed Sports Fest
+Where football passion meets live music. Watch exhibition matches and party with DJs afterward.
+JULY
+23
+Taste of Zambia
+Food, fashion, and tradition collide — sample cuisines, shop local brands, and enjoy live cooking shows.
+01
+Art &amp; Soul Expo
+A weekend of creativity featuring Zambian visual artists, live painting, and cultural showcases.
+AUG
+18
+Afrobeat Nation
+A mega concert dedicated to the best of afrobeats, dancehall, and hip-hop.
+31
+Zambia New Year Countdown
+Ring in the new year with fireworks, live music, and unforgettable performances.
+jAN
+Theatre Under the Stars
+An outdoor evening of storytelling, drama, and laughter featuring Zambia’s top theatre groups.
+Create a free website with Framer, the website builder loved by startups, designers and agencies.
+
+==================================================
+PAGE: CREATE-EVENT.HTML
+==================================================
+Title: My Framer Site
+
+--- HEADINGS ---
+H2: Create Your Event in Minutes
+
+--- UNIQUE TEXT NODES ---
+My Framer Site
+Events
+Create Event
+Artists
+Create Your Event in Minutes
+Fill in your details, upload your poster, and start selling tickets right away.
+Start Now
+Event Title
+Email
+Location
+Select…
+Concert
+Festival
+Sports
+Arts
+Lifestye
+Categories
+Hip-Hop
+Gospel
+Kalindula
+Food
+Dance
+Fashion
+Submit
+Create a free website with Framer, the website builder loved by startups, designers and agencies.
+
+==================================================
+PAGE: ARTIST.HTML
+==================================================
+Title: My Framer Site
+
+--- HEADINGS ---
+
+--- UNIQUE TEXT NODES ---
+My Framer Site
+Events
+Create Event
+Artists
+Create a free website with Framer, the website builder loved by startups, designers and agencies.
+
+==================================================
+PAGE: ARTIST-EVENTS-PAGE.HTML
+==================================================
+Title: My Framer Site
+
+--- HEADINGS ---
+H1: Saliyah Miyanda Tickets
+H1: Saliyah Miyanda Tickets
+H3: Concerts in Lusaka
+H3: Ubuntu Festival
+H3: Ubuntu Festival
+H3: Ubuntu Festival
+H1: About Saliyah Miyanda
+H1: About Saliyah Miyanda
+H1: About Saliyah Miyanda
+
+--- UNIQUE TEXT NODES ---
+My Framer Site
+Events
+Create Event
+Artists
+Saliyah Miyanda Tickets
+Concerts in Lusaka
+DEC
+09
+Fri 7:30PM
+Ubuntu Festival
+Lusaka, Pinnacle Mall
+Join us for an unforgettable evening of live performances and great vibes.
+Find Tickets
+10
+11
+About Saliyah Miyanda
+Create a free website with Framer, the website builder loved by startups, designers and agencies.
+
+==================================================
+PAGE: ARTIST-EVENTS-PAGE-2.HTML
+==================================================
+Title: My Framer Site
+
+--- HEADINGS ---
+H1: Kunkeyani Tha Jedi Tickets
+H1: Kunkeyani Tha Jedi Tickets
+H3: Concerts in Lusaka
+H3: Ubuntu Festival
+H3: Ubuntu Festival
+H3: Ubuntu Festival
+H1: About Kunkeyani
+H1: About Kunkeyani
+H1: About Kunkeyani
+
+--- UNIQUE TEXT NODES ---
+My Framer Site
+Events
+Create Event
+Artists
+Kunkeyani Tha Jedi Tickets
+Concerts in Lusaka
+DEC
+09
+Fri 7:30PM
+Ubuntu Festival
+Lusaka, Pinnacle Mall
+Join us for an unforgettable evening of live performances and great vibes.
+Find Tickets
+10
+11
+About Kunkeyani
+Create a free website with Framer, the website builder loved by startups, designers and agencies.
+

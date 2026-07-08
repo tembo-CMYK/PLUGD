@@ -1,0 +1,93 @@
+My Framer Site
+html body { background: rgb(255, 255, 255); }
+Events
+Create Event
+Artists
+Default image
+Zambia’s
+Biggest
+Events,
+All
+in
+One
+Place
+Explore Events
+Get Your Tickets
+Scroll to explore
+LSK
+13:58
+2025
+Find Events Near You
+See
+your
+favorite
+artists
+concert
+Experience
+unforgettable
+nights.
+Browse
+upcoming
+concerts
+the
+carousel,
+choose
+date,
+and
+book
+tickets
+to
+see
+live.
+PM
+19
+MAY2025
+TH
+04
+LOS ANGELES, CALI
+STAPLES, CENTER
+GENERAL
+ADMISSION
+')" class="framer-y7kogw" aria-hidden="true">
+MARCH2025
+30
+AUSTIN, TEXAS
+KIA FORUM
+INDIVIDUAL
+VIP BACKSTAGE
+20
+APRIL2025
+15
+21
+24
+MIAMI, FLORIDA
+FTX ARENA
+PREMIUM SUITE
+Featured Artist
+Explore our interactive calendar to find and filter all upcoming events by category.
+Kunkeyani Tha Jedi Headlining Coachella
+Catch him live at
+Coachella Main Stage, California
+Date:
+Saturday, April 12, 2025
+Location:
+Empire Polo Grounds, Indio, California
+Tickets:
+Available now 🎟️
+Find Tickets
+Upcoming Events
+DEC
+09
+Ubuntu Festival
+Join us for an unforgettable evening of live performances and great vibes.
+Save A Spot
+FRAMER
+LINKEDIN
+X.COM
+INSTAGRAM
+DRIBBBLE
+FREE CLONEABLES
+Create a free website with Framer, the website builder loved by startups, designers and agencies.
+>6;return o+=o
+>11,o+=o
+>>0}function u(e,t,o){let a=e[t];if(typeof a

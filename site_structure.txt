@@ -1,0 +1,386 @@
+=== METADATA ===
+Title: My Framer Site
+Description: Made with Framer
+
+=== ALL HEADINGS ===
+H2 [attrs:  class="framer-text framer-styles-preset...]: Zambia’s Biggest Events, All in One Place
+H1 [attrs:  class="framer-text framer-styles-preset...]: Find Events Near You
+H1 [attrs:  class="framer-text framer-styles-preset...]: Find Events Near You
+H2 [attrs:  class="framer-text framer-styles-preset...]: See your favorite artists in concert
+H2 [attrs:  class="framer-text framer-styles-preset...]: See your favorite artists in concert
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Featured Artist
+H6 [attrs:  class="framer-text framer-styles-preset...]: Explore our interactive calendar to find and filter all upcoming events by category.
+H3 [attrs:  class="framer-text framer-styles-preset...]: Kunkeyani Tha Jedi Headlining Coachella
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Upcoming Events
+H6 [attrs:  class="framer-text framer-styles-preset...]: Explore our interactive calendar to find and filter all upcoming events by category.
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+H3 [attrs:  style="--font-selector:R0Y7SW5rbnV0IEFu...]: Ubuntu Festival
+
+=== ALL PARAGRAPHS ===
+P: ')" class="framer-1bpdox6 framer-118ix9m" role="img" aria-label="Framer Logo" aria-description="An SVG icon of the Framer Logo.">Events
+P: Create Event
+P: Artists
+P: ')" class="framer-1bpdox6 framer-118ix9m" role="img" aria-label="Framer Logo" aria-description="An SVG icon of the Framer Logo.">Default imageZambia’s Biggest Events, All in One PlaceExplore Events
+P: Explore Events
+P: Get Your Tickets
+P: Get Your Tickets
+P: Scroll to explore
+P: LSK
+P: 2025
+P: See your favorite artists in concertSee your favorite artists in concertExperience unforgettable nights. Browse upcoming concerts in the carousel, choose your date, and book tickets to see your favorite artists live.
+P: Get Your Tickets
+P: Get Your Tickets
+P: PM
+P: 19
+P: MAY2025
+P: TH
+P: 04
+P: LOS ANGELES, CALI
+P: STAPLES, CENTER
+P: GENERAL
+P: ADMISSION
+P: ')" class="framer-y7kogw" aria-hidden="true">PM
+P: 19
+P: MARCH2025
+P: TH
+P: 30
+P: AUSTIN, TEXAS
+P: KIA FORUM
+P: INDIVIDUAL
+P: VIP BACKSTAGE
+P: ')" class="framer-y7kogw" aria-hidden="true">PM
+P: 20
+P: APRIL2025
+P: TH
+P: 15
+P: AUSTIN, TEXAS
+P: KIA FORUM
+P: INDIVIDUAL
+P: VIP BACKSTAGE
+P: ')" class="framer-y7kogw" aria-hidden="true">PM
+P: 21
+P: APRIL2025
+P: TH
+P: 24
+P: MIAMI, FLORIDA
+P: FTX ARENA
+P: INDIVIDUAL
+P: PREMIUM SUITE
+P: ')" class="framer-y7kogw" aria-hidden="true">PM
+P: 19
+P: MAY2025
+P: TH
+P: 04
+P: LOS ANGELES, CALI
+P: STAPLES, CENTER
+P: GENERAL
+P: ADMISSION
+P: ')" class="framer-y7kogw" aria-hidden="true">PM
+P: 19
+P: MARCH2025
+P: TH
+P: 30
+P: AUSTIN, TEXAS
+P: KIA FORUM
+P: INDIVIDUAL
+P: VIP BACKSTAGE
+P: ')" class="framer-y7kogw" aria-hidden="true">PM
+P: 20
+P: APRIL2025
+P: TH
+P: 15
+P: AUSTIN, TEXAS
+P: KIA FORUM
+P: INDIVIDUAL
+P: VIP BACKSTAGE
+P: ')" class="framer-y7kogw" aria-hidden="true">PM
+P: 21
+P: APRIL2025
+P: TH
+P: 24
+P: MIAMI, FLORIDA
+P: FTX ARENA
+P: INDIVIDUAL
+P: PREMIUM SUITE
+P: ')" class="framer-y7kogw" aria-hidden="true">PM
+P: 19
+P: MAY2025
+P: TH
+P: 04
+P: LOS ANGELES, CALI
+P: STAPLES, CENTER
+P: GENERAL
+P: ADMISSION
+P: ')" class="framer-y7kogw" aria-hidden="true">PM
+P: 19
+P: MARCH2025
+P: TH
+P: 30
+P: AUSTIN, TEXAS
+P: KIA FORUM
+P: INDIVIDUAL
+P: VIP BACKSTAGE
+P: ')" class="framer-y7kogw" aria-hidden="true">PM
+P: 20
+P: APRIL2025
+P: TH
+P: 15
+P: AUSTIN, TEXAS
+P: KIA FORUM
+P: INDIVIDUAL
+P: VIP BACKSTAGE
+P: ')" class="framer-y7kogw" aria-hidden="true">PM
+P: 21
+P: APRIL2025
+P: TH
+P: 24
+P: MIAMI, FLORIDA
+P: FTX ARENA
+P: INDIVIDUAL
+P: PREMIUM SUITE
+P: ')" class="framer-y7kogw" aria-hidden="true">Featured ArtistExplore our interactive calendar to find and filter all upcoming events by category.Kunkeyani Tha Jedi Headlining CoachellaZambia’s very own lyrical master takes center stage at one of the world’s biggest music festivals! Known for his razor-sharp wordplay, infectious energy, and unmatched stage presence, Kunkeyani is set to bring Zambian hip-hop to a global audience like never before.
+P: Catch him live at Coachella Main Stage, California for a historic performance that blends local rhythm with international flair. This is more than a concert — it’s a cultural moment you don’t want to miss.
+P: Date: Saturday, April 12, 2025Location: Empire Polo Grounds, Indio, CaliforniaTickets: Available now 🎟️
+P: Find Tickets
+P: Find Tickets
+P: Find Tickets
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: DEC
+P: 09
+P: Join us for an unforgettable evening of live performances and great vibes.
+P: Save A Spot
+P: FRAMER
+P: LINKEDIN
+P: X.COM
+P: INSTAGRAM
+P: DRIBBBLE
+P: FREE CLONEABLES
+P: FREE CLONEABLES
+P: FREE CLONEABLES
+P: FREE CLONEABLES
+P: FREE CLONEABLES
+P: FRAMER
+P: LINKEDIN
+P: X.COM
+P: INSTAGRAM
+P: DRIBBBLE
+P: FREE CLONEABLES
+P: FREE CLONEABLES
+P: FREE CLONEABLES
+P: FREE CLONEABLES
+P: FREE CLONEABLES
+P: FRAMER
+P: LINKEDIN
+P: X.COM
+P: INSTAGRAM
+P: DRIBBBLE
+P: FREE CLONEABLES
+P: FREE CLONEABLES
+P: FREE CLONEABLES
+P: FREE CLONEABLES
+P: FREE CLONEABLES
+P: Create a free website with Framer, the website builder loved by startups, designers and agencies.
+
+=== ALL SPANS ===
+SPAN: Zambia’s
+SPAN: Biggest
+SPAN: Events,
+SPAN: favorite
+SPAN: artists
+SPAN: concert
+SPAN: favorite
+SPAN: artists
+SPAN: concert
+SPAN: Experience
+SPAN: unforgettable
+SPAN: nights.
+SPAN: Browse
+SPAN: upcoming
+SPAN: concerts
+SPAN: carousel,
+SPAN: choose
+SPAN: tickets
+SPAN: favorite
+SPAN: artists
+
+=== ALL LINKS AND ANCHORS ===
+Link: "')" class="framer-1bpdox6 framer-118ix9m" role="img" aria-label="Framer Logo" aria-description="An SVG icon of the Framer Logo.">" -> ./
+Link: "Events" -> ./events
+Link: "Create Event" -> ./create-event
+Link: "Artists" -> ./artist
+Link: "')" class="framer-1bpdox6 framer-118ix9m" role="img" aria-label="Framer Logo" aria-description="An SVG icon of the Framer Logo.">" -> ./
+Link: "Explore Events" -> ./events
+Link: "Explore Events" -> ./events
+Link: "Get Your Tickets" -> ./artist-events-page-2
+Link: "Get Your Tickets" -> ./artist-events-page-2
+Link: "Get Your Tickets" -> ./artist-events-page
+Link: "Get Your Tickets" -> ./artist-events-page
+Link: "Find Tickets" -> ./artist-events-page-2
+Link: "Find Tickets" -> ./artist-events-page-2
+Link: "Find Tickets" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "Save A Spot" -> ./artist-events-page-2
+Link: "FRAMER" -> #svg12080171331
+Link: "LINKEDIN" -> #svg12080171331
+Link: "X.COM" -> #svg12080171331
+Link: "INSTAGRAM" -> #svg12080171331
+Link: "DRIBBBLE" -> #svg12080171331
+Link: "FRAMER" -> #svg12080171331
+Link: "LINKEDIN" -> #svg12080171331
+Link: "X.COM" -> #svg12080171331
+Link: "INSTAGRAM" -> #svg12080171331
+Link: "DRIBBBLE" -> #svg12080171331
+Link: "FRAMER" -> #svg12080171331
+Link: "LINKEDIN" -> #svg12080171331
+Link: "X.COM" -> #svg12080171331
+Link: "INSTAGRAM" -> #svg12080171331
+Link: "DRIBBBLE" -> #svg12080171331
+Link: "Create a free website with Framer, the website builder loved by startups, designers and agencies." -> https://www.framer.com
+
+=== ALL IMAGES ===
+Image Src: https://framerusercontent.com/images/yEKvvQ4jISjwktztFhDUb9EWrE.png
+Image Src: https://framerusercontent.com/images/WsGxUiFeeIlxzmUp2s5oY1Svo.jpg
+Image Src: https://framerusercontent.com/images/mGwjxq43iNKBQ29yCeNqMPWzmA.jpg
+Image Src: https://framerusercontent.com/images/A3EHY4lmxkB8Il72qQiyTlHTQ.jpg
+Image Src: https://framerusercontent.com/images/TpLRQnkShEL3CP9MI4cP5G3s.jpg
+Image Src: https://framerusercontent.com/images/yAraq4mhZL8eGJsZxmFQS8GSGx4.jpg
+Image Src: https://framerusercontent.com/images/4aYwBNp8rtFwJ6M3WPAzFqvelI.jpg
+Image Src: https://framerusercontent.com/images/7A9ooUAMXZndCl2jlwJxWHVbvg.jpg
+Image Src: https://framerusercontent.com/images/KXIBBnf1L3NC3qW3dgugEKoGAo.jpg
+Image Src: https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg
+Image Src: https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg

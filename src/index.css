@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;500;600;700;900&family=Inter:wght@400;500;600;700;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Inknut Antiqua", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-neon-green: var(--brand-accent);
+  --color-charcoal: var(--bg-primary);
+}
+
+/* Custom scrollbar hiding and styles */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Page transitions */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.4s cubic-bezier(0.16, 1, 0.3, 1), color 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+:root {
+  --bg-primary: #0A0A0A; /* Deep Onyx */
+  --bg-secondary: rgba(18, 18, 18, 0.65); /* Translucent Glass Secondary */
+  --bg-tertiary: rgba(30, 30, 30, 0.8);
+  --text-primary: #ffffff;
+  --text-secondary: #a3a3a3;
+  --border-primary: rgba(255, 255, 255, 0.08); /* Sophisticated thin border */
+  --border-secondary: rgba(255, 255, 255, 0.04);
+  --card-hover: rgba(255, 255, 255, 0.05);
+  --brand-accent: #B8FF6E; /* Vivid green brand accent restored */
+  
+  /* Category Color Coding (System Architecture) */
+  --cat-music: #7F3CF7;
+  --cat-music-rgb: 127, 60, 247;
+  --cat-music-bg: rgba(127, 60, 247, 0.08);
+  --cat-music-border: rgba(127, 60, 247, 0.25);
+  --cat-music-glow: rgba(127, 60, 247, 0.15);
+  --cat-music-badge-bg: rgba(127, 60, 247, 0.15);
+  --cat-music-badge-text: #C3A6FF;
+  
+  --cat-food: #E9733D;
+  --cat-food-rgb: 233, 115, 61;
+  --cat-food-bg: rgba(233, 115, 61, 0.08);
+  --cat-food-border: rgba(233, 115, 61, 0.25);
+  --cat-food-glow: rgba(233, 115, 61, 0.15);
+  --cat-food-badge-bg: rgba(233, 115, 61, 0.15);
+  --cat-food-badge-text: #FFBEA6;
+  
+  --cat-festivals: #FFD220;
+  --cat-festivals-rgb: 255, 210, 32;
+  --cat-festivals-bg: rgba(255, 210, 32, 0.06);
+  --cat-festivals-border: rgba(255, 210, 32, 0.22);
+  --cat-festivals-glow: rgba(255, 210, 32, 0.12);
+  --cat-festivals-badge-bg: rgba(255, 210, 32, 0.12);
+  --cat-festivals-badge-text: #FFF0B3;
+  --cat-festivals-title: #ffc957; /* Matches lighter gold shade specified by user */
+  
+  --cat-arts: #3B96F4;
+  --cat-arts-rgb: 59, 150, 244;
+  --cat-arts-bg: rgba(59, 150, 244, 0.08);
+  --cat-arts-border: rgba(59, 150, 244, 0.25);
+  --cat-arts-glow: rgba(59, 150, 244, 0.15);
+  --cat-arts-badge-bg: rgba(59, 150, 244, 0.15);
+  --cat-arts-badge-text: #B3D7FF;
+  --cat-arts-title: #B3D7FF;
+  
+  --cat-music-title: #C3A6FF;
+  --cat-food-title: #FFBEA6;
+}
+
+:root.light {
+  --bg-primary: #FFFFFF; /* Pure White background */
+  --bg-secondary: #FFFFFF; /* White for card surfaces to maintain depth */
+  --bg-tertiary: #F5F5F5; /* Soft off-white for input fields/tertiary sections */
+  --text-primary: #1A1A1A;
+  --text-secondary: #5E5E5E;
+  --border-primary: #E5E7EB; /* Clean light gray borders */
+  --border-secondary: #F3F4F6;
+  --card-hover: #FAFAFA;
+  --brand-accent: #5A9915; /* Saturated darker brand green for contrast */
+  
+  /* Saturated darker shades for WCAG accessibility compliance in light mode */
+  --cat-music: #6320D5;
+  --cat-music-rgb: 99, 32, 213;
+  --cat-music-bg: rgba(99, 32, 213, 0.06);
+  --cat-music-border: rgba(99, 32, 213, 0.18);
+  --cat-music-glow: rgba(99, 32, 213, 0.02);
+  --cat-music-badge-bg: rgba(99, 32, 213, 0.08);
+  --cat-music-badge-text: #5312bd;
+  
+  --cat-food: #C45422;
+  --cat-food-rgb: 196, 84, 34;
+  --cat-food-bg: rgba(196, 84, 34, 0.06);
+  --cat-food-border: rgba(196, 84, 34, 0.18);
+  --cat-food-glow: rgba(196, 84, 34, 0.02);
+  --cat-food-badge-bg: rgba(196, 84, 34, 0.08);
+  --cat-food-badge-text: #a83d16;
+  
+  --cat-festivals: #B38E00;
+  --cat-festivals-rgb: 179, 142, 0;
+  --cat-festivals-bg: rgba(179, 142, 0, 0.05);
+  --cat-festivals-border: rgba(179, 142, 0, 0.18);
+  --cat-festivals-glow: rgba(179, 142, 0, 0.02);
+  --cat-festivals-badge-bg: rgba(179, 142, 0, 0.08);
+  --cat-festivals-badge-text: #8c6e00;
+  
+  --cat-arts: #1A73D9;
+  --cat-arts-rgb: 26, 115, 217;
+  --cat-arts-bg: rgba(26, 115, 217, 0.06);
+  --cat-arts-border: rgba(26, 115, 217, 0.18);
+  --cat-arts-glow: rgba(26, 115, 217, 0.02);
+  --cat-arts-badge-bg: rgba(26, 115, 217, 0.08);
+  --cat-arts-badge-text: #115bad;
+  --cat-arts-title: var(--cat-arts);
+  
+  --cat-music-title: var(--cat-music);
+  --cat-food-title: var(--cat-food);
+  --cat-festivals-title: var(--cat-festivals);
+}
+
+/* Deep Onyx and premium glass-like cards for Dark Mode by default */
+body,
+.bg-\[\#131415\],
+.bg-\[\#111213\],
+.bg-\[\#161719\],
+.bg-\[\#141517\],
+.bg-charcoal,
+#home-page-container,
+#events-directory-page {
+  background-color: #0A0A0A !important;
+}
+
+/* Glassmorphism card overlays for dark mode */
+.bg-\[\#1c1d1f\],
+.bg-\[\#18191b\],
+.bg-\[\#1c1e20\],
+.bg-\[\#212224\],
+.bg-\[\#1a1b1d\],
+.bg-\[\#1e2022\],
+#booking-modal > div {
+  background-color: rgba(18, 18, 18, 0.6) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Custom interactive overlays and hovers in dark mode */
+.hover\:bg-\[\#1f2022\]:hover,
+.group-hover\:bg-\[\#1f2022\]:hover {
+  background-color: rgba(255, 255, 255, 0.04) !important;
+}
+
+/* Light mode seamless global utility overrides with exquisite, high-contrast editorial styling */
+.light body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* Seamless mappings for dark backgrounds to soft light surfaces */
+.light .bg-\[\#131415\],
+.light .bg-\[\#111213\],
+.light .bg-\[\#161719\],
+.light .bg-\[\#141517\],
+.light .bg-charcoal,
+.light .bg-\[\#111213\]\/40,
+.light .bg-\[\#111213\]\/90,
+.light .bg-\[\#111213\]\/80,
+.light .bg-\[\#131415\]\/90,
+.light .bg-black\/65 {
+  background-color: var(--bg-primary) !important;
+}
+
+.light .bg-\[\#1c1d1f\],
+.light .bg-\[\#18191b\],
+.light .bg-\[\#1c1e20\],
+.light .bg-\[\#212224\],
+.light .bg-\[\#1a1b1d\],
+.light .bg-\[\#1e2022\],
+.light .bg-\[\#18191b\]\/95,
+.light #booking-modal > div,
+.light #booking-modal div {
+  background-color: var(--bg-secondary) !important;
+  border-color: var(--border-primary) !important;
+}
+
+.light .bg-\[\#202123\]\/30,
+.light .bg-\[\#202123\],
+.light .bg-\[\#212225\],
+.light .bg-\[\#222325\],
+.light .bg-\[\#151617\],
+.light .bg-\[\#151617\]\/50,
+.light .bg-\[\#1d1e21\],
+.light .bg-\[\#242528\],
+.light .bg-white\/5 {
+  background-color: var(--bg-tertiary) !important;
+}
+
+/* Beautiful Drop Shadows under primary elements to establish elevation and hierarchy in light mode */
+.light .bg-\[\#18191b\],
+.light .bg-\[\#1c1d1f\],
+.light .bg-\[\#18191b\]\/95 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.01), 0 10px 40px rgba(0,0,0,0.02) !important;
+  border-color: var(--border-primary) !important;
+}
+
+/* Custom interactive indicator dots mapping */
+.light .bg-\[\#2d2e30\] {
+  background-color: var(--border-primary) !important;
+}
+
+/* Smooth border transformations */
+.light .border-\[\#2d2e30\],
+.light .border-\[\#232426\],
+.light .border-\[\#242528\],
+.light .border-\[\#2c2e30\],
+.light .border-\[\#2c2d30\],
+.light .border-\[\#212224\],
+.light .border-\[\#2e3034\],
+.light .border-\[\#28292c\],
+.light .border-white\/10,
+.light .border-white\/5 {
+  border-color: var(--border-primary) !important;
+}
+
+/* Accent Buttons & Interactive elements */
+.light .text-neon-green {
+  color: var(--brand-accent) !important;
+}
+
+.light .border-neon-green {
+  border-color: var(--brand-accent) !important;
+}
+
+.light .bg-neon-green {
+  background-color: var(--brand-accent) !important;
+  color: #ffffff !important;
+}
+
+.light .bg-neon-green:hover,
+.light .hover\:bg-\[\#a9fd73\]:hover {
+  background-color: #43750F !important; /* Premium deep brand green hover */
+  color: #ffffff !important;
+}
+
+.light .hover\:border-neon-green\/30:hover {
+  border-color: rgba(90, 153, 21, 0.4) !important;
+}
+
+.light .hover\:border-neon-green\/25:hover {
+  border-color: rgba(90, 153, 21, 0.4) !important;
+}
+
+.light .group-hover\:border-neon-green:hover,
+.light .group:hover .group-hover\:border-neon-green {
+  border-color: var(--brand-accent) !important;
+}
+
+.light .hover\:bg-\[\#1f2022\]:hover,
+.light .group-hover\:bg-\[\#1f2022\]:hover,
+.light .group:hover .group-hover\:bg-\[\#1f2022\] {
+  background-color: var(--card-hover) !important;
+}
+
+/* Text overrides - crisp obsidian for headings, soft zinc grey for descriptions */
+.light .text-white,
+.light .text-gray-100,
+.light .text-gray-200 {
+  color: var(--text-primary) !important;
+}
+
+.light .text-gray-300,
+.light .text-gray-400 {
+  color: var(--text-secondary) !important;
+}
+
+.light .text-gray-500 {
+  color: var(--text-secondary-light) !important;
+}
+
+/* Highlight badge accent override */
+.light .inline-flex.items-center.bg-neon-green\/10,
+.light .bg-neon-green\/10 {
+  background-color: rgba(90, 153, 21, 0.08) !important;
+  color: var(--brand-accent) !important;
+}
+
+.light .border-neon-green\/20,
+.light .border-neon-green\/30 {
+  border-color: rgba(90, 153, 21, 0.2) !important;
+}
+
+/* Ticket viewer custom punched holes overlays - handled via semantic classes below */
+
+/* Translucent backdrops, sliders and tabs */
+.light .backdrop-blur-md {
+  background-color: var(--card-bg, rgba(255, 255, 255, 0.85)) !important;
+}
+
+.light .bg-\[\#18191b\]\/95 {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+}
+
+/* Custom indicator checkmarks & dynamic tickets badges */
+.light .bg-neon-green\/15 {
+  background-color: rgba(90, 153, 21, 0.12) !important;
+}
+
+.light .border-neon-green\/15 {
+  border-color: rgba(90, 153, 21, 0.2) !important;
+}
+
+.light .text-\[\#a3f769\],
+.light .text-\[\#9afa5f\],
+.light .text-\[\#96989c\] {
+  color: var(--brand-accent) !important;
+}
+
+/* Form inputs & dynamic fields */
+.light input,
+.light textarea,
+.light select {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-primary) !important;
+}
+
+.light input:focus,
+.light textarea:focus,
+.light select:focus {
+  border-color: var(--brand-accent) !important;
+  outline: none !important;
+}
+
+.light select option {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Background gradient overlays removal or reversal for lightness */
+.light .from-black, .light .to-black,
+.light .via-black {
+  --tw-gradient-from: var(--bg-primary) !important;
+  --tw-gradient-to: rgba(248, 249, 250, 0) !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
+}
+
+/* Interactive custom indicators */
+.light .text-neon-green.fill-neon-green {
+  fill: var(--brand-accent) !important;
+}
+
+.light .bg-white\/5 {
+  background-color: rgba(0,0,0,0.03) !important;
+}
+.light .hover\:bg-white\/5:hover {
+  background-color: rgba(0,0,0,0.05) !important;
+}
+.light .hover\:bg-white\/10:hover {
+  background-color: rgba(0,0,0,0.07) !important;
+}
+
+/* Fix mobile menu panel */
+.light .bg-\[\#131415\]\/95 {
+  background-color: rgba(255, 255, 255, 0.98) !important;
+  border-color: var(--border-primary) !important;
+}
+
+.light .bg-black\/60 {
+  background-color: rgba(0,0,0,0.4) !important;
+}
+
+/* Ensure background images are at 100% opacity on light mode */
+.light img {
+  opacity: 1 !important;
+}
+.light #hero-section img {
+  opacity: 1 !important;
+  filter: brightness(0.4) saturate(1.2) !important; /* Keep it dark enough for readability but at 100% opacity */
+}
+.light #concerts-carousel-section {
+  background-color: #111213 !important;
+}
+.light #concerts-carousel-section > div:first-of-type {
+  opacity: 1 !important;
+  filter: brightness(0.3) saturate(1.1) !important; /* Keep image at 100% opacity but dark enough */
+}
+
+/* Avatar borders and dark border clean-ups */
+.light .border-\[\#18191b\] {
+  border-color: var(--bg-secondary) !important;
+}
+.light .border-\[\#303133\] {
+  border-color: var(--border-primary) !important;
+}
+
+/* Bright high-contrast text on darker background sections for light mode */
+.light #hero-section h1,
+.light #hero-section .text-white {
+  color: #ffffff !important;
+}
+.light #hero-section p,
+.light #hero-section .text-gray-400 {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+.light #hero-section .text-neon-green {
+  color: rgb(154, 250, 95) !important;
+}
+.light #hero-section a,
+.light #hero-section .text-gray-300 {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.light #concerts-carousel-section h2,
+.light #concerts-carousel-section #concerts-heading,
+.light #concerts-carousel-section .text-white:not(#ticket-viewer-wrapper *) {
+  color: #ffffff !important;
+}
+.light #concerts-carousel-section p:not(#ticket-viewer-wrapper *),
+.light #concerts-carousel-section .text-gray-400:not(#ticket-viewer-wrapper *) {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Show dark overlays on light mode as requested */
+.light #concerts-carousel-section > .bg-gradient-to-t {
+  display: block !important;
+  background-image: linear-gradient(to top, #111213 0%, rgba(17, 18, 19, 0) 40%, rgba(17, 18, 19, 0) 60%, #111213 100%) !important;
+  opacity: 0.8 !important;
+}
+
+.light #concerts-carousel-section > .bg-\[\#111213\]\/40 {
+  display: block !important;
+  background-color: rgba(17, 18, 19, 0.5) !important;
+}
+
+/* Ticket viewer custom gradients and high contrast text on top image half - handled via semantic classes below */
+
+/* Premium Ticket Viewer Light Mode Styling */
+.light #ticket-stack-container .ticket-card {
+  background-color: var(--bg-secondary) !important; /* Pure white (#ffffff) */
+  border-color: var(--border-primary) !important; /* Soft light border */
+  box-shadow: 0 20px 40px rgba(0,0,0,0.06), 0 1px 3px rgba(0,0,0,0.02) !important;
+}
+
+/* The top part containing the image remains a rich, dark section */
+.light #ticket-stack-container .ticket-top {
+  background-color: #111213 !important;
+}
+
+/* Ensure typography in ticket-top stays white in Light Mode */
+.light #ticket-stack-container .ticket-top h3,
+.light #ticket-stack-container .ticket-top .text-white {
+  color: #ffffff !important;
+}
+
+/* Ensure the gradient on the photo is always a dark gradient so white typography pops */
+.light #ticket-stack-container .ticket-gradient {
+  background-image: linear-gradient(to top, #111213 0%, rgba(17, 18, 19, 0.4) 40%, rgba(17, 18, 19, 0) 100%) !important;
+}
+
+/* The separator background matches the bottom card color (pure white) */
+.light #ticket-stack-container .ticket-separator {
+  background-color: var(--bg-secondary) !important; /* Pure white */
+}
+
+/* Style the left & right notches to look like crisp punched holes */
+.light #ticket-stack-container .ticket-notch-l,
+.light #ticket-stack-container .ticket-notch-r {
+  background-color: var(--bg-primary) !important; /* Matches soft gray page background */
+  border-color: var(--border-primary) !important;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Ensure dashed line separator is light gray and visible */
+.light #ticket-stack-container .ticket-dash {
+  border-color: var(--border-primary) !important;
+  opacity: 1 !important;
+}
+
+/* Bottom stub of the ticket: white card paper aesthetic */
+.light #ticket-stack-container .ticket-bottom {
+  background-color: var(--bg-secondary) !important; /* White background */
+  border-top: none !important;
+}
+
+/* Text overrides in the white bottom stub section - obsidian/charcoal for premium legibility */
+.light #ticket-stack-container .ticket-bottom span {
+  color: var(--text-secondary) !important; /* Soft gray for metadata labels */
+}
+.light #ticket-stack-container .ticket-bottom .text-gray-200 {
+  color: #111827 !important; /* High-contrast crisp black for location/venue and schedule values */
+}
+.light #ticket-stack-container .ticket-bottom .text-gray-400 {
+  color: #4b5563 !important; /* Soft gray for secondary text */
+}
+
+/* Barcode styling - crisp black lines on a clean background */
+.light #ticket-stack-container .ticket-barcode-bar {
+  background-color: #111827 !important; /* Obsidian black lines */
+}
+
+.light #ticket-stack-container .ticket-barcode-text {
+  color: #4b5563 !important;
+}
+
+/* Custom premium info alert box styling */
+#info-poster-pairing-alert {
+  background-color: rgba(184, 255, 110, 0.08) !important; /* Soft translucent green backdrop */
+  border-color: rgba(184, 255, 110, 0.2) !important;
+}
+
+#info-poster-pairing-alert .info-alert-icon {
+  color: #B8FF6E !important; /* Vivid green icon */
+}
+
+#info-poster-pairing-alert .info-alert-text {
+  color: #cbd5e1 !important; /* Muted light text */
+}
+
+/* Light mode - solid green background with white text and white icon as requested */
+.light #info-poster-pairing-alert {
+  background-color: var(--brand-accent) !important; /* Darker green (#5A9915) */
+  border-color: var(--brand-accent) !important;
+}
+
+.light #info-poster-pairing-alert .info-alert-icon {
+  color: #ffffff !important; /* White icon */
+}
+
+.light #info-poster-pairing-alert .info-alert-text {
+  color: #ffffff !important; /* White text */
+  font-weight: 500;
+}
+
+/* Category-aware dynamic card buttons and states */
+.card-btn-primary {
+  background-color: var(--card-badge-bg) !important;
+  border-color: var(--card-border) !important;
+  color: var(--card-badge-text) !important;
+}
+
+.card-btn-primary:hover {
+  background-color: var(--card-accent) !important;
+  color: var(--bg-primary) !important; /* light mode text is dark, dark mode text is dark/black */
+  border-color: transparent !important;
+}
+
+.card-btn-secondary {
+  background-color: transparent !important;
+  border-color: var(--card-border) !important;
+  color: var(--text-secondary) !important;
+}
+
+.card-btn-secondary:hover {
+  background-color: var(--card-badge-bg) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--card-accent) !important;
+}
+
+/* Make sure that inner elements have dynamic color overlays */
+.light .card-border-dynamic,
+.card-border-dynamic {
+  border-color: var(--card-border) !important;
+}
+
+
+

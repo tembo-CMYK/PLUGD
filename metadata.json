@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Zambian Events Platform",
+  "description": "An interactive directory of Zambia\u0027s biggest concerts, music festivals, sports events, and local artists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
