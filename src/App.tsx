@@ -80,20 +80,47 @@ export default function App() {
     }
   }, [currentCreatorId]);
 
-  // Sync state path router with address bar
+  // Sync state path router with address bar using Hash-based routing for static host (GitHub Pages) compatibility
   useEffect(() => {
-    // Initial path load
-    const initialPath = window.location.pathname;
-    if (initialPath && initialPath !== '/') {
-      setCurrentPath(initialPath);
-    }
-
-    const handlePopState = () => {
-      setCurrentPath(window.location.pathname || '/');
+    const parseHashPath = () => {
+      const hash = window.location.hash;
+      if (!hash || hash === '#' || hash === '#/') {
+        return '/';
+      }
+      // Strip starting '#'
+      let path = hash.substring(1);
+      // Ensure it starts with '/'
+      if (!path.startsWith('/')) {
+        path = '/' + path;
+      }
+      return path;
     };
 
-    window.addEventListener('popstate', handlePopState);
-    return () => window.removeEventListener('popstate', handlePopState);
+    // Initial path load from hash
+    let initialPath = parseHashPath();
+    
+    // Fallback if no hash exists initially but pathname does
+    if (!window.location.hash || window.location.hash === '' || window.location.hash === '#') {
+      const pathname = window.location.pathname;
+      const knownRoutes = ['/events', '/create-event', '/artist', '/admin'];
+      const matchedRoute = knownRoutes.find(r => pathname.endsWith(r));
+      if (matchedRoute) {
+        initialPath = matchedRoute;
+        window.location.hash = '#' + matchedRoute;
+      } else {
+        initialPath = '/';
+        window.location.hash = '#/';
+      }
+    }
+
+    setCurrentPath(initialPath);
+
+    const handleHashChange = () => {
+      setCurrentPath(parseHashPath());
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
   }, []);
 
   // Sync Theme with Root HTML element class list
@@ -111,7 +138,8 @@ export default function App() {
   };
 
   const handleNavigate = (path: string) => {
-    window.history.pushState({}, '', path);
+    const hashPath = path.startsWith('/') ? '#' + path : '#/' + path;
+    window.location.hash = hashPath;
     setCurrentPath(path);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
